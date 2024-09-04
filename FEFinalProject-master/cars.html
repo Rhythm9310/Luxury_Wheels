@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Cars | Luxury Wheels</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../css/main.css" />
+
+        <!-- page specific files -->
+        <style>
+            header a {
+                color: var(--dark);
+            }
+
+            .car-name {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <!-- logo -->
+                <a href="index.html" class="logo">Luxury Wheels</a>
+                <!-- toggle -->
+                <span class="toggle" onclick="toggleMenu()"></span>
+                <!-- nav items -->
+                <nav class="menu" onclick="toggleMenu()">
+                    <a href="index.html">Home</a>
+                    <a href="cars.html">Cars</a>
+                    <a href="services.html">Services</a>
+                    <a href="financing.html">Financing</a>
+                    <a href="contactus.html">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- pets -->
+        <section class="work" id="work">
+            <div class="container">
+                <div class="heading">
+                    <h2>Drive Your Dreams Home</h2>
+                    <p>
+                        Discover our extensive inventory of vehicles and let our expert team guide you to your ideal car, making your journey smooth from start to finish.
+                    </p>
+                </div>
+                <div class="content grid-container">
+                    <div class="workBx">
+                        <div class="img-container">
+                            <img src="../img/Car Images/Images/Audi/image1.jpeg" alt="Image" />
+                            <div class="details">
+                                <h3>Car Model: Audi Q6</h3>
+                                <p>Price: $55,000</p>
+                                <p>Features: Air Conditioning, Navigation, Leather Seats</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-container">
+                            <img src="../img/Car Images/Images/Audi/image2.jpeg" alt="Image 2">
+                            <div class="details">
+                                <h3>Car Model: ABC</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Sunroof, Bluetooth, Backup Camera</p>
+                            </div>
+                        </div> -->
+                        <p class="car-name">Audi</p>
+                    </div>
+                    <div class="workBx" id="slideshow2">
+                        <div class="img-container">
+                            <img src="../img/Car Images/Images/BMW/image 2.jpeg" alt="Image" />
+                            <div class="details">
+                                <h3>Car Model: BMX X2</h3>
+                                <p>Price: $60,000</p>
+                                <p>Features: Air Conditioning, Navigation, Leather Seats</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-container">
+                            <img src="../img/Car Images/Images/BMW/image1.jpeg" alt="Image 2">
+                            <div class="details">
+                                <h3>Car Model: ABC</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Sunroof, Bluetooth, Backup Camera</p>
+                            </div>
+                        </div> -->
+                        <p class="car-name">BMW</p>
+                    </div>
+                    <div class="workBx" id="slideshow3">
+                        <div class="img-container">
+                            <img src="../img/Car Images/Images/Mercedes/image2.jpeg" alt="Image" />
+                            <div class="details">
+                                <h3>Car Model: Mercedes G Class</h3>
+                                <p>Price: $60,000</p>
+                                <p>Features: Air Conditioning, Navigation, Leather Seats</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-container">
+                            <img src="../img/Car Images/Images/Mercedes/image2.jpeg" alt="Image 2">
+                            <div class="details">
+                                <h3>Car Model: ABC</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Sunroof, Bluetooth, Backup Camera</p>
+                            </div>
+                        </div> -->
+                        <p class="car-name">Mercedes</p>
+                    </div>
+                    <div class="workBx" id="slideshow4">
+                        <div class="img-container">
+                            <img src="../img/Car Images/Images/Tesla/image1.jpeg" alt="Image" />
+                            <div class="details">
+                                <h3>Car Model: Tesla Model S</h3>
+                                <p>Price: $60,000</p>
+                                <p>Features: Air Conditioning, Navigation, Leather Seats</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-container">
+                            <img src="../img/Car Images/Images/Tesla/image2.jpeg" alt="Image 2">
+                            <div class="details">
+                                <h3>Car Model: ABC</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Sunroof, Bluetooth, Backup Camera</p>
+                            </div>
+                        </div> -->
+                        <p class="car-name">Tesla</p>
+                    </div>
+                    <div class="workBx" id="slideshow5">
+                        <div class="img-container">
+                            <img src="../img/Car Images/Images/Toyota/image1.jpeg" alt="Image" />
+                            <div class="details">
+                                <h3>Car Model: Toyota Camry</h3>
+                                <p>Price: $50,000</p>
+                                <p>Features: Air Conditioning, Navigation, Leather Seats</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-container">
+                            <img src="../img/Car Images/Images/Toyota/image2.jpeg" alt="Image 2">
+                            <div class="details">
+                                <h3>Car Model: ABC</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Sunroof, Bluetooth, Backup Camera</p>
+                            </div>
+                        </div> -->
+                        <p class="car-name">Toyota</p>
+                    </div>
+                    <div class="workBx" id="slideshow6">
+                        <div class="img-container">
+                            <img src="../img/Car Images/Images/Jeep/image1.jpeg" alt="Image" />
+                            <div class="details">
+                                <h3>Car Model: Jeep</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Air Conditioning, Navigation, Leather Seats</p>
+                            </div>
+                        </div>
+                        <!-- <div class="img-container">
+                            <img src="../img/Car Images/Images/Jeep/image2.jpeg" alt="Image 2">
+                            <div class="details">
+                                <h3>Car Model: ABC</h3>
+                                <p>Price: $35,000</p>
+                                <p>Features: Sunroof, Bluetooth, Backup Camera</p>
+                            </div>
+                        </div> -->
+                        <p class="car-name">Jeep</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <a href="#" class="btn">View More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="container">
+                    <div class="copyright">
+                        <p>Copyright &copy; <span id="currentYear">2024</span> All Right Reserved.</p><br>
+                        <p style="margin-top: -30px;">Made with 🤍 by Jay, Poojan, Rhythm, and Shashank</p>
+                    </div>
+                    <div class="office">
+                        <p>Head Office: <span id="location">Mississauga, ON, Canada</span></p><br>
+                        <p style="margin-top: -30px;">Contact: +1 (437)-852-7596</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- scripts -->
+        <script src="../js/main.js"></script>
+
+    </body>
+
+</html>

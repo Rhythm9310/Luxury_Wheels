@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Contact | Luxury Wheels</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../css/main.css" />
+
+        <!-- page specific files -->
+        <style>
+            header a {
+                color: var(--dark);
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <!-- logo -->
+                <a href="index.html" class="logo">Luxury Wheels</a>
+                <!-- toggle -->
+                <span class="toggle" onclick="toggleMenu()"></span>
+                <!-- nav items -->
+                <nav class="menu" onclick="toggleMenu()">
+                    <a href="index.html">Home</a>
+                    <a href="cars.html">Cars</a>
+                    <a href="services.html">Services</a>
+                    <a href="financing.html">Financing</a>
+                    <a href="contactus.html">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- contact us -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Contact</h2>
+                    <p>Connect with us if you have any query, and our team will be <br>more than happy to help you out.</p>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5778.2361425856725!2d-90.64738052499578!3d43.604083155608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b473428f16a4b%3A0x2a39fdd6fa19f32b!2s80%20Acorn%20Pl%20%23157%2C%20Mississauga%2C%20ON%20L4Z%203S7!5e0!3m2!1sen!2sca!4v1722419616438!5m2!1sen!2sca" width="100%" height="350" style="border:0; margin-top: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                     <img src="../img/giphy.gif" alt="gif" class="gif">
+                </div>
+                <div class="content grid-container">
+                    <div class="contactInfo">
+                        <h3>Contact Info</h3>
+                        <div class="contactInfoBx">
+                            <div class="box">
+                                <div class="icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="text">
+                                    <h3>Address</h3>
+                                    <p>
+                                        Unit 2309, 3605 Kariya Drive
+                                        <br />
+                                        Mississauga, Ontario,
+                                        <br />
+                                        L5B 3J4
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="text">
+                                    <h3>Phone</h3>
+                                    Jay Trivedi : <a href="tel:+12893951436">+1 289-395-1436</a><br>
+                                    Poojan Prajapati : <a href="tel:+14378188209">+1 437-818-8209</a><br>
+                                    Rhythm Sharma : <a href="tel:+14374881520">+1 437-488-1520</a><br>
+                                    Shashank Lalpurwala : <a href="tel:+14379251250">+1 437-925-1250</a>
+                                </div>
+                            </div><br>
+                            <div class="box">
+                                <div class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="text">
+                                    <h3>Email</h3>
+                                    Jay Trivedi : <a href="mailto:jaytrivedi@gmail.com">jaytrivedi@gmail.com</a><br>
+                                    Poojan Prajapati : <a href="mailto:poojanprajapati09@gmail.com">poojanprajapati09@gmail.com</a><br>
+                                    Rhythm Sharma : <a href="mailto:rhythmsharma@gmail.com">rhythmsharma@gmail.com</a><br>
+                                    Shashank Lalpurwala: <a href="mailto:shashank@gmail.com">shashank@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formBx">
+                        <form>
+                            <h3>Message Me</h3>
+                            <input class="input-form" type="text" placeholder="Full Name" />
+                            <input class="input-form" type="email" placeholder="Email" />
+                            <textarea class="input-form" placeholder="Your Message"></textarea>
+                            <button class="submit" type="submit" value="Send" >Submmit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="container">
+                    <div class="copyright">
+                        <p>Copyright &copy; <span id="currentYear">2024</span> All Right Reserved.</p><br>
+                        <p style="margin-top: -30px;">Made with 🤍 by Jay, Poojan, Rhythm, and Shashank</p>
+                    </div>
+                    <div class="office">
+                        <p>Head Office: <span id="location">Mississauga, ON, Canada</span></p><br>
+                        <p style="margin-top: -30px;">Contact: +1 (437)-852-7596</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- scripts -->
+        <script src="../js/main.js"></script>
+
+    </body>
+
+</html>
